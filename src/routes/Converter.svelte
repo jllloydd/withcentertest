@@ -92,7 +92,7 @@
 
 		<div class="flex mx-auto py-2">
 			<button
-				on:click={result !== null ? reset : convertCurrency}
+				onclick={result !== null ? reset : convertCurrency}
 				class="py-2 px-3 bg-slate-950 rounded-lg text-white mx-auto hover:bg-slate-300 hover:text-slate-950 hover:cursor-pointer"
 				disabled={!canConvert && result === null}
 			>
